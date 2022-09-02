@@ -1,0 +1,24 @@
+--- [SYSTEM] PACK: 'ext-zsh' (*.orig.tar.xz)
+File '*.orig.tar.*' not found! Creating...
+File 'ext-zsh_1.0.1.orig.tar.xz' created!
+--- [SYSTEM] BUILD: 'github.com/unixstore/debian-ext-zsh.git'
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building ext-zsh using existing ./ext-zsh_1.0.1.orig.tar.xz
+dpkg-source: warning: ignoring deletion of file zshrc.grml, use --include-removal to override
+dpkg-source: info: building ext-zsh in ext-zsh_1.0.1-5.debian.tar.xz
+dpkg-source: info: building ext-zsh in ext-zsh_1.0.1-5.dsc
+File 'ext-zsh_1.0.1-5.dsc' found!
+Build completed!
+--- [SYSTEM] MOVE: '/root/git/src' -> '/root/git/dst'
+Removing old files from repository...
+Moving new files to repository...
+renamed '/root/git/src/_service' -> '/root/git/dst/_service'
+renamed '/root/git/src/_meta' -> '/root/git/dst/_meta'
+renamed '/root/git/src/README.md' -> '/root/git/dst/README.md'
+renamed '/root/git/src/LICENSE' -> '/root/git/dst/LICENSE'
+renamed '/root/git/src/ext-zsh_1.0.1-5.debian.tar.xz' -> '/root/git/dst/ext-zsh_1.0.1-5.debian.tar.xz'
+renamed '/root/git/src/ext-zsh_1.0.1.orig.tar.xz' -> '/root/git/dst/ext-zsh_1.0.1.orig.tar.xz'
+renamed '/root/git/src/ext-zsh_1.0.1.orig.tar.xz.sha256' -> '/root/git/dst/ext-zsh_1.0.1.orig.tar.xz.sha256'
+renamed '/root/git/src/ext-zsh_1.0.1-5.dsc' -> '/root/git/dst/ext-zsh_1.0.1-5.dsc'
+renamed '/root/git/src/build.log' -> '/root/git/dst/build.log'
+/bin/mv: cannot stat '/root/git/src/*.sha256': No such file or directory
